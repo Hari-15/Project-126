@@ -1,0 +1,39 @@
+h1 {
+  width : 100%;
+  font-size : 30px !important;
+  margin-top : 0px !important;
+}
+
+.note {
+  color : skyblue; 
+  font-size : 18px;
+}
+
+body {
+  background-size: cover;
+  text-align : center;
+}
+
+.dj_volume_disk {
+  float : left;
+}
+.dvd_image {
+  border-radius: 20px;
+}
+
+
+
+.dsd_image {
+    border-radius: 20px;
+}
+
+.dj_speed_disk {
+  float : right;
+  margin-bottom : 165px;
+}
+
+.btn-danger {
+    width : 130px;
+    font-size : 25px;
+    
+} 

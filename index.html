@@ -1,0 +1,34 @@
+<html>
+ <head>
+    <title>Disk Jockey App</title>
+   <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+    <link rel = 'stylesheet' href = 'style.css'>
+  </head>
+  <body background = 'dj_background.jpg'>
+    <h1 class = 'btn btn-primary'>DISK JOCKEY APP WITH POSENET
+      <br>
+      <span class = 'note'>Note : Use your left wrist to change the speed and your right wrist to change the volume.</span>
+    </h1>
+    <br>
+    <br>
+    <br>
+    <span class = 'dj_volume_disk'>
+      <img src = 'dj-old.gif' class = 'dvd_image'>
+      <br>
+      <h2 class = 'btn btn-success a'>Volume : </h2>
+    </span>
+    <span class = 'dj_speed_disk '>
+        <img src = 'dj-old.gif' class = 'dsd_image'>
+        <br>
+        <h2 class = 'btn btn-success b'>Speed : </h2>
+    </span>
+    <button onclick = 'play();' class = 'btn btn-danger'>Play</button>
+    <script src = 'main.js'></script>
+  </body>
+</html>
